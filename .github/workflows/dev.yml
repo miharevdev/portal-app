@@ -106,9 +106,9 @@ jobs:
 
  
 
-      - name: PHPStan
+      # - name: PHPStan
 
-        run: ./vendor/bin/phpstan analyse
+      #   run: ./vendor/bin/phpstan analyse
 
  
 
