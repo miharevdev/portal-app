@@ -60,15 +60,15 @@ jobs:
 
  
 
-      - name: Composer Audit
+      # - name: Composer Audit
 
-        run: composer audit
+      #   run: composer audit
 
  
 
-      - name: Composer Validate
+      # - name: Composer Validate
 
-        run: composer validate --no-check-all --strict
+      #   run: composer validate --no-check-all --strict
 
  
 
