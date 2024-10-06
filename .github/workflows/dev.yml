@@ -228,7 +228,7 @@ jobs:
 
           source: "./"
 
-          target: "~/path_to_project"
+          target: "~/portal_app"
 
  
 
