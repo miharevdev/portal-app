@@ -248,4 +248,4 @@ jobs:
 
           script:
 
-            chown -R www-root ~/portal_app && cd ~/portal_app && php artisan cache:clear && php artisan config:clear && php artisan view:clear && php artisan migrate
+            chown -R root ~/portal_app && cd ~/portal_app && php artisan cache:clear && php artisan config:clear && php artisan view:clear && php artisan migrate
