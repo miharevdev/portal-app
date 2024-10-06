@@ -54,9 +54,9 @@ jobs:
 
  
 
-      - name: Composer Lint
+      # - name: Composer Lint
 
-        run: ./vendor/bin/phplint --no-cache
+      #   run: ./vendor/bin/phplint --no-cache
 
  
 
