@@ -152,14 +152,9 @@ jobs:
 
           sed -i 's/DB_PASSWORD=/DB_PASSWORD=${{ secrets.DB_PASSWORD }}/g' .env
 
-          # sed -i 's|VTIGER_URL=http://localhost:8080|VTIGER_URL=${{ secrets.VTIGER_URL }}|g' .env
-
-          # sed -i 's/VTIGER_USERNAME=admin/VTIGER_USERNAME=${{ secrets.VTIGER_USERNAME }}/g' .env
-
-          # sed -i 's/VTIGER_ACCESS_KEY=1234567890/VTIGER_ACCESS_KEY=${{ secrets.VTIGER_ACCESS_KEY }}/g' .env
+          sed -i 's/DB_DATABASE=/DB_DATABASE=${{ secrets.DB_DATABASE }}/g' .env
 
  
-
       - name: Setup Laravel
 
         run: |
