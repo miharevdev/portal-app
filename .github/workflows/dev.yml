@@ -154,6 +154,15 @@ jobs:
 
           sed -i 's/DB_DATABASE=/DB_DATABASE=${{ secrets.DB_DATABASE }}/g' .env
 
+
+      - name: Setup composer
+
+        run: |
+
+          composer update --ignore-platform-reqs
+
+          composer install --ignore-platform-reqs
+
  
       - name: Setup Laravel
 
